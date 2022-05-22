@@ -14,8 +14,8 @@ const Services = () => {
 
     return (
         <div>
-            <h3 style={{color:'#990000'}} className='pb-5 pt-3 fw-bold'>My Service</h3>
-            <div className="container">
+            <h3 style={{color:'#990000'}} class='pb-5 pt-3 fw-bold'>My Service</h3>
+            <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 {
                   tutorSub.map(sub=><Service

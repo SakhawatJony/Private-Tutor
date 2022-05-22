@@ -13,8 +13,8 @@ import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
-    <div className="App">
-       <div className="App">
+    <div class="App">
+       <div class="App">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>

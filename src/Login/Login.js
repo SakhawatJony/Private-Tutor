@@ -16,10 +16,10 @@ const Login = () => {
 
     return (
         <div>
-            <h1>Please LogIn</h1>
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-12 col-md-6">
+            <h4 class="mt-4 fw-bold" style={{color:'#990000'}}>Please LogIn</h4>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
                         <form onSubmit={() =>
                             processLogin()
                                 .then(result => {
@@ -57,12 +57,12 @@ const Login = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="col-12 col-md-6">
-                        <img className='img-fluid h-100 w-100' src={LoginPage} alt="" />
+                    <div class="col-12 col-md-6">
+                        <img class='img-fluid h-100 w-100' src={LoginPage} alt="" />
 
                     </div>
                     <p>
-                        New to Personal-Tutor? <Link className='' to="/register">Create an account</Link>
+                        New to Personal-Tutor? <Link class='' to="/register">Create an account</Link>
                     </p>
                 </div>
             </div>

@@ -6,11 +6,11 @@ const Service = ({sub}) => {
 
     return (
         <div class="col">
-    <div class="card" style={{height:'500px',border:'1px solid #2E4053'}}>
+    <div class="card" style={{height:'500px',border:'1px solid #990000'}}>
       <img src={img} class="card-img-top mx-auto pt-4" style={{height:'200px',width:'200px'}} alt="" />
       <div class="card-body">
-        <h5 class="card-title">Subject Name: {name}</h5>
-        <h5 class="card-title">Fee:${tutionfish}</h5>
+        <h5 class="card-title fw-bold">Subject Name: {name}</h5>
+        <h5 class="card-title fw-bolder">Fee:${tutionfish}</h5>
         <p class="card-text">{description}</p>
         <Link to='/details'><button style={{background:'#990000'}}  type="button" class="btn text-white fw-bold btn-sm">Enroll Now</button></Link>
       </div>

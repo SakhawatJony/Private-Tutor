@@ -8,10 +8,10 @@ const Register = () => {
    
     return (
         <div>
-            <h3>Please Register</h3>
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-12 col-md-6">
+            <h4 class="mt-4 fw-bold" style={{color:'#990000'}}>Please Register</h4>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
                        <form onSubmit={handleRegistration}>
                        <div class="mb-3">
                             <input 
@@ -44,12 +44,12 @@ const Register = () => {
                         </div>
                        </form>
                     </div>
-                    <div className="col-12 col-md-6">
-                        <img className='img-fluid h-100 w-100' src={RegisterBg} alt="" />
+                    <div class="col-12 col-md-6">
+                        <img class='img-fluid h-100 w-100' src={RegisterBg} alt="" />
 
                     </div>
                     <p>
-                    Already Have an account?<Link className='' to="/login">logIn</Link>
+                    Already Have an account?<Link class='' to="/login">logIn</Link>
                 </p>
                 </div>
             </div>

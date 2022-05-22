@@ -3,9 +3,9 @@ import  NotFoundBg from '../../image/NotFound.jpg'
 
 const NotFound = () => {
     return (
-        <div className='mt-5'>
-            <h3 className='text-red'>Sorry woring Page Please try Again</h3>
-            <img src={NotFoundBg}  className="img-fluid" alt="" />
+        <div class='mt-5'>
+            <h3 class='text-red'>Sorry woring Page Please try Again</h3>
+            <img src={NotFoundBg}  class="img-fluid" alt="" />
         </div>
     );
 };

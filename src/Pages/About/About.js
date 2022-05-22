@@ -1,23 +1,33 @@
 import React from 'react';
-import MePic from '../../image/me.jpg'
+import BannerBg from '../../image/banner.webp'
 
 const About = () => {
     return (
         <div>
-            <div className="container">
-                <h1 className='pt-5'>About Me</h1>
-                <div className="row align-items-center pt-3">
-                    <div className="col-12 col-md-6">
-                        <img style={{ height: '400px' }} src={MePic} className="" alt="" />
+            <div class="container">
+                <h4 class='pt-5 fw-bold' style={{color:'#2E4053'}}>About Us</h4>
+                <div class="row align-items-center pt-3">
+                    <div class="col-12 col-md-6">
+                        <div class='pt-3'>
+                       <h3 class='fw-bold'>Personal <span class='fw-bold' style={{color:'#990000'}}>Private Tutor</span> </h3>
+                        <p style={{color:'#9e7b7b'}} class=''> We are providing home tutors to the students who are seeking extra help for betterment in their studies. All our private tutors are from BUET, DMC, IBA, DU, NSU, MIST, BRAC etc universities along with both English medium and Bangla medium background from reputed schools and colleges. Our adroit and dedicated house tutors are working very hard and honestly to boost up the grade of the engaged students.
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                          </p>
+                       </div>
 
                     </div>
-                    <div className="col-12 col-md-6">
-                        <h3>Showmittro Biswas</h3>
-                        <p>Hey,,
-                            I am Showmittro Biswas. I am a student of Feni Computer Institute of Data Telecommunication and Networking Technology. <br /><br />
-                            I am a professional Front End Web developer
-                            I’m a Front End Web developer who is passionate about making error-free websites with 100% client satisfaction. I love to solve real-world problems. I am strategic, goal-oriented, and always work with an end goal in mind. I pride myself on doing quality work and maintaining excellent communication. Most of the time I work with JavaScript ReactJS.
-                        </p>
+                    <div class="col-12 col-md-6">
+                    <img class='img-fluid' src={BannerBg}  alt="" />
+                   
                     </div>
                 </div>
             </div>
