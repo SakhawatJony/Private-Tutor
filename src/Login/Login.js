@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import google from '../../../private-tutor/src/image/google.png'
+import google from '../image/google.png'
 import useFirebase from '../hooks/useFirebase';
 import LoginPage from '../image/login.jfif'
 
