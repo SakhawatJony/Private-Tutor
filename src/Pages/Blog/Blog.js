@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div>
       <div class="container mt-5">
-        <h2 style={{color:'#990000'}} class=" mb-3 pb-5">My Three Blogs</h2>
+        <h3 style={{color:'#2E4053'}} class=" mb-3 pb-5 fw-bolder">My Three Blogs</h3>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col">
             <div
@@ -86,7 +86,7 @@ const Blog = () => {
 
           </div>
         </div>
-        <h2 class="fw-bolder mb-3 "> More Blogs <span style={{color:'#990000'}}>Comming Soons!!!!!</span> </h2>
+        <h2 class="fw-bolder mt-3  "> More Blogs <span style={{color:'#990000'}}>Comming Soons!!!!!</span> </h2>
       </div>
     </div>
   );

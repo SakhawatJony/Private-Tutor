@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import BannerBg from '../../image/banner.webp'
 import Footer from '../Footer/Footer';
 import Services from '../Services/Services';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
                 </div>
             </div>
             <Services></Services>
+            <Blog></Blog>
             <Footer></Footer>
         </div>
     );
